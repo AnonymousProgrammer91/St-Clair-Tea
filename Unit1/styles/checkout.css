@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  color: #40514E;
+}
+
+p {
+  line-height: .5;
+  font-weight: normal;
+  font-size: .85em;
+  margin-top: 3px;
+}
+
+h1 {
+  color: red;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+tr:hover {
+  text-decoration: underline;
+}
+
+.store {
+  background-color: #557571;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+
+}
+
+.total {
+  height: 350px;
+  background-color: #D49A89;
+  width: 60%;
+  margin: auto;
+  margin-top: 23px;
+  position: relative;
+}
+
+ .tag{
+  display: inline;
+  position: float;
+  clear: right;
+  position: absolute;
+  left: 63%;
+  transform: translateX(-50%);
+  top: 30%;
+  font-size: 2em;
+}
+
+.button {
+  display: inline;
+  position: float;
+  clear: right;
+  position: absolute;
+  left: 63%;
+  top: 50%;
+  transform: translateX(-50%);
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  text-shadow: 5px 2px 4px #db18db;
+  font-family: Courier New;
+  color: #ffff00;
+  font-size: 40px;
+  padding: 10px 20px 10px 20px;
+  border: dotted #86a5b8 3px;
+  text-decoration: none;
+}
+
+h3 {
+  display: inline-block;
+  font-size: .75em;
+  padding-top: 15;
+  margin: 40px 15px 0;
+}
+
+
+
+strong{
+  margin-left: 45px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: .7em;
+}
+
+.receipt {
+  background-color: #f1f1f1;
+  width: 25%;
+  height: 350px;
+  position: absolute;
+}
+
+.pink {
+ background-color: #e809e1;
+ height: 150px;
+ width: 150px;
+ border-radius: 10%;
+
+}
+
+.pink:hover {
+  background-color: #9010eb;
+
+}
+
+.blue {
+  background-color: #229ce3;
+  height: 200px;
+  width: 150px;
+  border-radius: 10%;
+  height: 150px;
+}
+
+.blue:hover {
+  background-color: #1215de;
+}
+
+.green {
+  background-color: #76e83c;
+  height: 200px;
+  width: 150px;
+  border-radius: 10%;
+  height: 150px;
+}
+
+.green:hover {
+  background-color: #1aff00;
+}
+
+.yellow {
+  background-color: #ffff00;
+  height: 200px;
+  width: 150px;
+  border-radius: 10%;
+  height: 150px;
+}
+
+.yellow:hover {
+  background-color: #ffbf00;
+}
+
+.orange {
+  background-color: orange;
+  height: 200px;
+  width: 150px;
+  border-radius: 10%;
+  height: 150px;
+}
+
+.orange:hover {
+  background-color: #ffcc00;
+}
+
+footer {
+	margin-top: 25px;
+	line-height: 2;
+}
